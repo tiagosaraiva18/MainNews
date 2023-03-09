@@ -1,0 +1,29 @@
+@import url('./cabecalho.css');
+@import url('./destaques.css');
+@import url('./noticias.css');
+@import url('./rodape.css');
+
+:root{
+    --fonte-principal: 'Poppins';
+    --borda-inferior-cabecalho: rgb(163, 163, 163);
+    --branco: #fff;
+    --preto: #000;
+    --fundo-lista-cabecalho: #ff7b00;
+    --fundo-titulo-card: rgba(0, 0, 0, 0.486);
+    --titulo-pagina: rgb(0, 0, 0);
+}
+
+body{
+    font-family: var(--fonte-principal);
+    height: 100%;
+}
+
+.container2{
+    padding: 0 .5rem;
+}
+
+@media screen and (min-width: 1440px){
+    .container2{
+        padding: 0 5rem;
+    }
+}
